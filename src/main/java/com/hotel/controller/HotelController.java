@@ -66,8 +66,4 @@ public class HotelController {
 		 return ResponseEntity.status(HttpStatus.OK).body(hotelServiceimpl.deleteHotel(hotelId));
 	}
 
-	@GetMapping("/h")
-	public String hello(){
-		return "Hello World";
-	}
 }
