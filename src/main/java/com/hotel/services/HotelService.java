@@ -2,7 +2,7 @@ package com.hotel.services;
 
 import java.util.List;
 
-import entities.Hotel;
+import com.hotel.entities.Hotel;
 
 public interface HotelService {
 	
@@ -19,7 +19,7 @@ public interface HotelService {
 
 	//Hotel updateHotel(Hotel hotel, String hotelId);
 
-	Hotel updateHotel(String hotelId, Hotel hotel);
+	Hotel updateHotel(int hotelId, Hotel hotel);
 
 	//Hotel Hotel(HotelService hotelService, String hotelId);
 }
